@@ -23,48 +23,48 @@ int main() {
     
     Printf("Cadastrar Primeira Carta \n");
 
-    printf("Digite a letra do Estado: %s\n");
+    printf("Digite a letra do Estado: \n");
     scanf("%s", &Estado);
 
-    printf("Digite o código da carta: %s\n");
+    printf("Digite o código da carta: \n");
     scanf("%s", &Código);
 
-    printf("Digite o nome da Cidade: %s\n");
+    printf("Digite o nome da Cidade: \n");
     scanf("%s", &Cidade);
 
-    printf("Digite a populução: %d\n");
+    printf("Digite a populução: \n");
     scanf("%d", &População);
 
-    printf("Digite a area da cidade: %f\n");
+    printf("Digite a area da cidade: \n");
     scanf("%f", &Area);
 
-    printf("Digite o PIB: %f\n");
+    printf("Digite o PIB: \n");
     scanf("%f", &Pib);
 
-    printf("Digite o numero de pontos turisticos: %d\n");
+    printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &Pontos_turisticos);
    
    printf("Cadastrar Segunda Carta \n");
 
-    printf("Digite a letra do Estado: %s\n");
+    printf("Digite a letra do Estado: \n");
     scanf("%s", &Estado1);
 
-    printf("Digite o código da carta: %s\n");
+    printf("Digite o código da carta: \n");
     scanf("%s", &Código1);
 
-    printf("Digite o nome da Cidade: %s\n");
+    printf("Digite o nome da Cidade: \n");
     scanf("%s", &Cidade1);
 
-    printf("Digite a populução: %d\n");
+    printf("Digite a populução: \n");
     scanf("%d", &População1);
 
-    printf("Digite a area da cidade: %f\n");
+    printf("Digite a area da cidade: \n");
     scanf("%f", &Area1);
 
-    printf("Digite o PIB: %f\n");
+    printf("Digite o PIB: \n");
     scanf("%f", &Pib1);
 
-    printf("Digite o numero de pontos turisticos: %d\n");
+    printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &Pontos_turisticos1);
 
     printf("Dados da Primeira carta:\n");
@@ -87,7 +87,7 @@ int main() {
     printf("PIB da Cidade: %f\n", Pib1);
     printf("Numeros de pontos turisticos: %d\n",Pontos_turisticos1);
 
-    
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
