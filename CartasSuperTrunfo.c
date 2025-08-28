@@ -77,7 +77,7 @@ int main() {
     printf("PIB da Cidade: %f\n",Pib);
     printf("Numeros de pontos turisticos: %d\n",Pontos_turisticos);
 
-    printf("\nDados da Segunda Carta:\n");
+    printf("Dados da Segunda Carta:\n");
 
     printf("Estado: %s\n",Estado1);
     printf("Código da carta: %s\n",Código1);
