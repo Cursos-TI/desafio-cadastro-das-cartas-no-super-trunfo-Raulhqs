@@ -9,16 +9,23 @@
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char Estado,Estado1;
-    char Código[10],Código1[10];
-    char Cidade[20],Cidade1[20];
-    int População,População1;
-    float Area,Area1;
-    float Pib,Pib1;
-    int Pontos_turisticos,Pontos_turisticos1;
+    char Estado;
+    char Estado1;
+    char Código[10];
+    char Código1[10];
+    char Cidade[20];
+    char Cidade1[20];
+    int População;
+    int População1;
+    float Area;
+    float Area1;
+    float Pib;
+    float Pib1;
+    int Pontos_turisticos;
+    int Pontos_turisticos1;
 
     // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
+    // Sugestão,: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
     printf("Cadastrar Primeira Carta \n");
