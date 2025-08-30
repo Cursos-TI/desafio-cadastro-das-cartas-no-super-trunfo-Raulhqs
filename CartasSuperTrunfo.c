@@ -9,8 +9,8 @@
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    char Estado;
-    char Estado1;
+    char Estado[10];
+    char Estado1[10];
     char Código[10];
     char Código1[10];
     char Cidade[20];
@@ -31,7 +31,7 @@ int main() {
     printf("Cadastrar Primeira Carta \n");
 
     printf("Digite a letra do Estado: \n");
-    scanf("%c", &Estado);
+    scanf("%s", &Estado);
 
     printf("Digite o código da carta: \n");
     scanf("%s", &Código);
@@ -54,7 +54,7 @@ int main() {
    printf("\nCadastrar Segunda Carta \n");
 
     printf("Digite a letra do Estado: \n");
-    scanf("%c", &Estado1);
+    scanf("%s", &Estado1);
 
     printf("Digite o código da carta: \n");
     scanf("%s", &Código1);
@@ -76,7 +76,7 @@ int main() {
 
     printf("Dados da Primeira carta:\n");
 
-    printf("Estado: %c\n",Estado);
+    printf("Estado: %s\n",Estado);
     printf("Código da carta: %s\n",Código);
     printf("Nome da Cidade: %s\n",Cidade);
     printf("População: %d\n",População);
@@ -86,7 +86,7 @@ int main() {
 
     printf("\nDados da Segunda Carta:\n");
 
-    printf("Estado: %c\n",Estado1);
+    printf("Estado: %s\n",Estado1);
     printf("Código da carta: %s\n",Código1);
     printf("Nome da Cidade: %s\n",Cidade1);
     printf("População: %d\n",População1);
