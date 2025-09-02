@@ -56,6 +56,7 @@ int main() {
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &Pontos_turisticos);
 
+    // Calculo da densidade demografica e do PIB per capita da primeira carta
     dsdm = (float) População / Area;
     pibpc = (float) Pib / População;
 
@@ -84,6 +85,7 @@ int main() {
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &Pontos_turisticos1);
 
+    // Calculo da densidade demografica e do PIB per capita da segunda carta
     dsdm1 = (float) População1 / Area1;
     pibpc1 = (float) Pib1 / População1;
 
