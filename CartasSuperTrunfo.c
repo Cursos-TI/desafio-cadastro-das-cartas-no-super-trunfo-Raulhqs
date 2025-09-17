@@ -21,7 +21,7 @@ int main() {
     float Area1;
     float Pib;
     float Pib1;
-    int Pontos_turisticos;
+    int Pontos_turisticos, escolhadojogador;
     int Pontos_turisticos1;
     float dsdm;
     float dsdm1;
@@ -105,7 +105,7 @@ int main() {
     printf("Nome da Cidade: %s\n",&Cidade);
     printf("População: %u Hab\n",População);
     printf("Area em km: %.2lf km\n",Area);
-    printf("PIB da Cidade: %.2f\n",Pib);
+    printf("PIB da Cidade: %llf\n",Pib);
     printf("Numeros de pontos turisticos: %d\n",Pontos_turisticos);
     printf("Densidade Populacional: %.2f hab/km\n",dsdm);
     printf("Pib per Capita: %.2lf reais\n",pibpc);
@@ -120,17 +120,60 @@ int main() {
     printf("Nome da Cidade: %s\n",&Cidade1);
     printf("População: %u Hab\n",População1);
     printf("Area em km: %.2lf km\n",Area1);
-    printf("PIB da Cidade: %.2f\n",Pib1);
+    printf("PIB da Cidade: %llff\n",Pib1);
     printf("Numeros de pontos turisticos: %d\n",Pontos_turisticos1);
     printf("Densidade Populacional: %.2f hab/km\n",dsdm1);
     printf("Pib per Capita: %.2lf reais\n",pibpc1);
     printf("Super Poder: %ld\n", superPoder1);
 
-    // comparação dos dados
+    // Jogador escolhe o atributo
+
+    printf("\n*** Escolha um atributo para comparar ***\n");
+    printf("1 - População\n");
+    printf("2 - Area\n");
+    printf("3 - Pib\n");
+    printf("4 - Densidade Demografica\n");
+    printf("5 - Pontos Turisticos\n");
+    scanf("%d", escolhadojogador);
+
+    switch (escolhadojogador)
+    {
+    case 1:
+        printf("População");               
+        break;
+    case 2:
+        printf("Area");         
+        break;
+    case 3:
+        printf("Pib");         
+        break;
+    case 4:
+        printf("Densidade Demografica");         
+        break;
+    case 5:
+        printf("Pontos turisticos");         
+        break;
+    
+    default:
+        printf("Opção invalida");
+        break;
+    }
+
+
+
+    printf("Nome das Cidades: %s - %s\n", &Cidade,&Cidade1);
+    printf("Atributo escolhido: %u Hab\n",População1);
+    printf("Area em km: %.2lf km\n",Area1);
+    printf("PIB da Cidade: %llff\n",Pib1);
+    printf("Numeros de pontos turisticos: %d\n",Pontos_turisticos1);
+    printf("Densidade Populacional: %.2f hab/km\n",dsdm1);
+
+
+    /* comparação dos dados
 
     printf("\nComparação das Cartas, atributo: PIB\n");
     printf("Carta 1 - %s ,%.2lf\n",&Cidade, Pib);
-    printf("Carta 1 - %s ,%.2lf\n",&Cidade1, Pib1);
+    printf("Carta 2 - %s ,%.2lf\n",&Cidade1, Pib1);
    
     if(Pib > Pib1){
         printf("\nResultado: Carta 1 %s venceu", &Cidade);
